@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EricPodPackage_Example' do
+  pod 'EricPodPackage', :path => '../'
+
+  target 'EricPodPackage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
